@@ -1,0 +1,11 @@
+Total Sales = SUM(Superstore[Sales])
+
+Total Profit = SUM(Superstore[Profit])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+Total Orders = DISTINCTCOUNT(Superstore[OrderID])
+
+Total Quantity = SUM(Superstore[Quantity])
+
+Avg Discount % = AVERAGE(Superstore[Discount])
